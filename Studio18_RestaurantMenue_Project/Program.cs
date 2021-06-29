@@ -34,7 +34,7 @@ namespace Studio18_RestaurantMenue_Project
 
         static void NewItem()
         {
-            Console.WriteLine("Would you like to add a new item to the menu?");
+            Console.WriteLine("Would you like to add an item to the menu?");
             string food;
             string foodDesc;
             double foodPrice;
