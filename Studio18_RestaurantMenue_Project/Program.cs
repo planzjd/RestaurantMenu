@@ -43,13 +43,13 @@ namespace Studio18_RestaurantMenue_Project
 
             if (user == "yes")
             {
-                Console.WriteLine("What is the new item?");
+                Console.WriteLine("What is the new item you would like to add?");
                 input = Console.ReadLine().Trim();
                 food = Rgx(input);
-                Console.WriteLine("What is the item's description?");
+                Console.WriteLine("What is the new item's description?");
                 input = Console.ReadLine().Trim();
                 foodDesc = Rgx(input);
-                Console.WriteLine("What is the item's price?");
+                Console.WriteLine("What is the new item's price?");
                 input = Console.ReadLine().Trim();
                 foodPrice = Double.Parse(input);
 
